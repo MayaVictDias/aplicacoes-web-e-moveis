@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'atividade-pratica';
 
+  // Array com informações sobre vários alunos. A primeira chave são com dados verdadeiros sobre a autora deste código. Todos os outros foram inventados
   alunos = [
     {nome: 'Mayara Victória Dias', RU: '3598730', curso: 'Engenharia de Software', aniversario: '01/05/2002'},
     {nome: 'Bruno Dias', RU: '3598731', curso: 'Engenharia da Computação', aniversario: '23/11/2000'},

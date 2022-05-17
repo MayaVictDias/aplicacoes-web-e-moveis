@@ -1,11 +1,14 @@
+<!-- div contendo todo o conteúdo que será exibido no site e será formatada como uma janela de navegação pelo bootstrap -->
 <div class="nav nav-tabs">
 
+  <!-- Janela única onde irá estar a lista de alunos -->
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="#">Lista de alunos</a>
     
     <h5>Agenda</h5>
   </li>
     
+  <!-- Tabela com informações sobre os alunos -->
     <table class="table table-striped">
       <!-- th: titulo / tr: linha / td: coluna-->
       <thead>
@@ -18,6 +21,7 @@
       </thead>
       
       <tbody>
+        <!-- Estrutura em Angular que irá percorrer um array com informações sobre os alunos no arquivo "app.component.ts" e formatá-los em cada linha da tabela -->
         <tr *ngFor="let aluno of alunos">
           <td> {{ aluno.nome }} </td>
           <td> {{ aluno.RU }} </td>
@@ -25,6 +29,5 @@
           <td> {{ aluno.aniversario }} </td>
         </tr>
       </tbody>
-      
     </table>
 </div>
