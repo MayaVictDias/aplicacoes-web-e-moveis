@@ -1,5 +1,20 @@
 # AtividadePratica
 
+# Proposta da atividade
+
+Criar uma estrutura em um arquivo.ts contendo as seguintes informações:
+
+- Nome
+- RU
+- Nome do curso
+- Data de aniversário
+
+Criar 5 itens em uma lista. Em um deles, colocar seus dados. Os outros 4 podem ser inventados.
+
+Exiba os dados na tela utilizando a estrutura de repetição *ngFor, e formate o visual da aplicação utilizando Bootstrap.
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
 ## Development server
